@@ -13,3 +13,11 @@ Define HTLC, CLTV time
 After pay in sats
 
 The channel is open
+
+# To-Do
+
+- [ ] Testnet
+- [ ] Integration with LND and RGB
+- [ ] Mainnet
+- [ ] Fees
+- [ ] UI via Terminal

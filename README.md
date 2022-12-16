@@ -17,7 +17,7 @@ The channel is open
 # To-Do
 
 - [ ] Testnet
-- [ ] Integration with LND and RGB
+- [ ] Integration with LND, RGB and Nostr
 - [ ] Mainnet
 - [ ] Fees
 - [ ] UI via Terminal

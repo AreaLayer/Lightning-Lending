@@ -1,4 +1,4 @@
-name: Rust
+name: Node-Runners-Lending
 
 on:
   push:

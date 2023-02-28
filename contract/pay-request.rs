@@ -4,3 +4,6 @@ use lnp::pay
 
 
 
+var invoice
+
+var pay

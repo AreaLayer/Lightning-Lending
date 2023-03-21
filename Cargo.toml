@@ -1,3 +1,4 @@
 [dependencies]
 rgb-core = "0.10"
+lnp = "0.9"
 

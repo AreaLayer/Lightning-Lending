@@ -21,7 +21,7 @@ The channel is open
 
 # To-Do
 
-- [ ] Testnet
+- [X] Testnet
 - [ ] Integration with LND, RGB and Nostr
 - [ ] Mainnet
 - [ ] Fees

@@ -25,4 +25,4 @@ The channel is open
 - [ ] Integration with LND, RGB and Nostr
 - [ ] Mainnet
 - [ ] Fees
-- [ ] UI via Terminal
+- [X] UI via Terminal

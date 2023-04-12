@@ -19,5 +19,8 @@ let channel_manager = ChannelManager::new(
     message_handler, // Your message handler implementation
     Some(socket_descriptor), // Your socket descriptor implementation
 );
+/ Define the network you want to use, e.g. testnet or mainnet
+let network = bitcoin::network::constants::Network::Testnet;
+
 let peer_handler = PeerHandler::new(channel_manager);
 peer_handler.connect_to_peer(peer_address); // Connect to your counterparty's Lightning node

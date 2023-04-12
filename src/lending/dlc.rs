@@ -29,3 +29,7 @@ let mut psbt_map = HashMap::new();
 let psbt = get_signed_psbt(); // Get a signed PSBT for the funding transaction
 psbt_map.insert(funding_address, psbt);
 let fund_result = dlc.fund_contract(psbt_map,funding_address, psbt);
+
+};
+/ Define the network you want to use, e.g. testnet or mainnet
+let network = bitcoin::network::constants::Network::Testnet;

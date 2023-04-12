@@ -28,4 +28,4 @@ let (funding_tx, funding_address, funding_amount) = get_funding_info(); // Get t
 let mut psbt_map = HashMap::new();
 let psbt = get_signed_psbt(); // Get a signed PSBT for the funding transaction
 psbt_map.insert(funding_address, psbt);
-let fund_result = dlc.fund_contract(psbt_map,
+let fund_result = dlc.fund_contract(psbt_map,funding_address, psbt);

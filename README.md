@@ -13,7 +13,7 @@ Lending channels direct on Lightning Network
 
 Channel A opens with B
 
-Define HTLC, CLTV time
+Define HTLC, CLTV time with DLCs
 
 After pay in sats
 

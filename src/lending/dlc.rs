@@ -1,5 +1,5 @@
 use bitcoin::util::psbt::PartiallySignedTransaction as Psbt;
-use dlc_market::{BtcDlc, ContractInfo, Dlc, DlcManager, OracleInfo};
+use dlc::{BtcDlc, ContractInfo, Dlc, DlcManager, OracleInfo, OfferChannel, AcceptChannel, SignOffer}
 use std::collections::HashMap;
 use std::sync::Arc;
 

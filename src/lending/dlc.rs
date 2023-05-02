@@ -5,6 +5,7 @@ use std::sync::Arc;
 
 let oracle_info = OracleInfo {
     pub_key: oracle_pub_key,
+    offerchannel: pub_key_peer
     oracle_event: "Open channel with other peer",
     maturity_time: 1651339200, // Timestamp for 12:00 UTC on April 30, 2023
     num_ticks: 1000, // Number of price ticks

@@ -11,7 +11,7 @@
 
 Lending channels direct on Lightning Network
 
-Channel A opens with B
+Channel A opens with B with DLCs and Relays
 
 Define HTLC, CLTV time with DLCs
 

@@ -22,7 +22,7 @@ The channel is open
 # To-Do
 
 - [X] Testnet
-- [ ] Integration with LND, LDK, CLN and Nostr
+- [x] Integration with LDK and  Nostr
 - [ ] Mainnet
 - [ ] Fees
 - [X] UI via Terminal

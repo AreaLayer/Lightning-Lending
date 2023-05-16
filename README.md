@@ -1,8 +1,8 @@
-# Node-Runners-Lending :zap:
+# Lightning Lending :zap:
 
  Buy/Sell/Borrow/Lending on Lightning Network 
  
- # Demo Node Runners Lending
+ # Demo Lightning Lending
  
  ![image](https://user-images.githubusercontent.com/83122757/228208656-9595956b-58e4-494d-af80-624e7b036421.png)
 

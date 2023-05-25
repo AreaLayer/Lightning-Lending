@@ -19,7 +19,11 @@ After pay in sats
 
 The channel is open
 
-# To-Do
+# NIP base
+
+https://github.com/AreaLayer/NIP-xxx/blob/main/NIP/NIP-xxx.md
+
+# Roadmap
 
 - [X] Testnet
 - [x] Integration with LDK and  Nostr

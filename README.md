@@ -23,6 +23,10 @@ The channel is open
 
 https://github.com/AreaLayer/NIP-xxx/blob/main/NIP/NIP-xxx.md
 
+# PoC
+
+https://github.com/AreaLayer/Lightning-lending-PoC/tree/main
+
 # Roadmap
 
 - [X] Testnet

@@ -21,11 +21,11 @@ The channel is open
 
 # NIP base
 
-https://github.com/AreaLayer/NIP-xxx/blob/main/NIP/NIP-xxx.md
+[Check here](https://github.com/AreaLayer/NIP-xxx/blob/main/NIP/NIP-xxx.md)
 
 # PoC
 
-https://github.com/AreaLayer/Lightning-lending-PoC/tree/main
+[Look our PoC](https://github.com/AreaLayer/Lightning-lending-PoC/tree/main)
 
 # Roadmap
 

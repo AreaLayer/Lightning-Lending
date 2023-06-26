@@ -29,7 +29,7 @@ The channel is open
 
 # Roadmap
 
-- [X] Testnet
+- [X] Testnet/Signet
 - [x] Integration with LDK and  Nostr
 - [x] [PoC](https://github.com/AreaLayer/Lightning-lending-PoC/)
 - [ ] Mainnet

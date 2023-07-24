@@ -2,12 +2,12 @@
 
  Buy/Sell/Borrow/Lending on Lightning Network 
  
- # Demo Lightning Lending
+ ## Demo Lightning Lending
  
  ![image](https://user-images.githubusercontent.com/83122757/228208656-9595956b-58e4-494d-af80-624e7b036421.png)
 
 
-# How works
+## How works
 
 Lending channels direct on Lightning Network
 
@@ -19,15 +19,15 @@ After pay in sats
 
 The channel is open
 
-# NIP base
+## NIP base
 
 [Check here](https://github.com/AreaLayer/NIP-xxx/blob/main/NIP/NIP-xxx.md)
 
-# PoC
+## PoC
 
 [Look our PoC](https://github.com/AreaLayer/Lightning-lending-PoC/tree/main)
 
-# Roadmap
+## Roadmap
 
 - [X] Testnet/Signet
 - [x] Integration with LDK and  Nostr

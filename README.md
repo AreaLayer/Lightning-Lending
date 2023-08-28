@@ -29,5 +29,3 @@ The channel is open
 - [x] [PoC](https://github.com/AreaLayer/Lightning-lending-PoC/)
 - [ ] Mainnet
 - [ ] CLI
-- [ ] Fees
-- [X] UI via Terminal

@@ -14,13 +14,9 @@ After pay in sats
 
 The channel is open
 
-## NIP base
+## Run software
 
-[Check here](https://github.com/AreaLayer/NIP-xxx/blob/main/NIP/NIP-xxx.md)
-
-## PoC
-
-[Look our PoC](https://github.com/AreaLayer/Lightning-lending-PoC/tree/main)
+TBD
 
 ## Roadmap
 

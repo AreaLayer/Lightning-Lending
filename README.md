@@ -16,7 +16,20 @@ The channel is open
 
 ## Run software
 
-TBD
+**Pre Resqusite**
+
+- Cargo
+
+To build your CLI application, navigate to the project directory in the terminal and run:
+
+```cargo
+cargo build
+```
+
+To run your CLI application
+```cargo
+cargo run -- <main.rs> <cli.rs>
+```
 
 ## Roadmap
 

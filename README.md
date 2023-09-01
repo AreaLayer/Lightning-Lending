@@ -30,7 +30,10 @@ To run your CLI application
 ```cargo
 cargo run -- <main.rs> <cli.rs>
 ```
-
+Replace PUBKEY_HEX, KIND, CONTENT, TAG1,TAG2, and SECRET_KEY_HEX with your actual data.
+```cargo
+cargo run -- -p PUBKEY_HEX -k KIND -c CONTENT -t TAG1,TAG2 -s SECRET_KEY_HEX
+```
 ## Roadmap
 
 - [X] Testnet/Signet

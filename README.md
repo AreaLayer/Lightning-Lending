@@ -1,6 +1,8 @@
 # Lightning Lending :zap:
 
  Buy/Sell/Borrow/Lending on Lightning Network 
+
+ ⚠️ **Beta software**
  
 ## How works
 

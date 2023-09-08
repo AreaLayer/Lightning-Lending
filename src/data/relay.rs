@@ -1,3 +1,6 @@
+use nostr::kind0;
+use nostr::nip05;
+
 fn create_event(
     pubkey_hex: &str,
     kind: u16,

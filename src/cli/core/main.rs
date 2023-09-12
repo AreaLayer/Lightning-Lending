@@ -12,6 +12,7 @@ use std::time::{SystemTime, UNIX_EPOCH};
 use sha2::{Sha256, Digest};
 use secp256k1::{Secp256k1, Message, SecretKey, PublicKey};
 use nostr::{serialize, deserialize};
+use nostr::{EventKind0};
 
 #[derive(Debug, Serialize, Deserialize)]
 struct MyEvent {

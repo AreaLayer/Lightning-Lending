@@ -1,1 +1,7 @@
+[package]
 
+lihgtning lending = "1.0.0"
+
+[package nostr]
+
+[package ldk]

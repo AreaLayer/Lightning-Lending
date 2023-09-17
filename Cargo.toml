@@ -1,5 +1,11 @@
+
 [dependencies]
 rust-dlc = "0.4.0"
 ldk = "0.0.116"
 nostr = "0.23"
 
+[dlc]
+
+[ldk]
+
+[nostr]

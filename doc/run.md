@@ -1,6 +1,6 @@
 # Running the CLI Application
 
-## Prerequisite
+### Prerequisite
 
 Before running the CLI application, ensure that you have Cargo installed on your system.
 
@@ -35,5 +35,3 @@ cargo run -- -p PUBKEY_HEX -k KIND -c CONTENT -t TAG1,TAG2 -s SECRET_KEY_HEX
 In the example above, replace `PUBKEY_HEX`, `KIND`, `CONTENT`, `TAG1,TAG2`, and `SECRET_KEY_HEX` with the actual data you want to pass as command-line arguments to your CLI application.
 
 Now you should be able to run your CLI application with the specified parameters.
-
----

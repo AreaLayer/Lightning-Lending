@@ -1,7 +1,3 @@
-Certainly! Here are the docs for running your CLI application:
-
----
-
 # Running the CLI Application
 
 ## Prerequisite

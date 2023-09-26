@@ -37,5 +37,3 @@ In the example above, replace `PUBKEY_HEX`, `KIND`, `CONTENT`, `TAG1,TAG2`, and 
 Now you should be able to run your CLI application with the specified parameters.
 
 ---
-
-Please make sure to replace the placeholders with your actual data, and follow the provided instructions to build and run your CLI application successfully.

@@ -3,6 +3,8 @@
  Buy/Sell/Borrow/Lending on Lightning Network 
 
  ⚠️ **Beta software**
+
+ **Contributions are welcome**
  
 ## How works
 

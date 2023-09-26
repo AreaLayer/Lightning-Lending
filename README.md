@@ -26,5 +26,5 @@ Check [here](https://github.com/AreaLayer/Lightning-Lending/blob/main/doc/run.md
 - [x] Integration with LDK and  Nostr
 - [x] [PoC](https://github.com/AreaLayer/Lightning-lending-PoC/)
 - [ ] Mainnet
-- [ ] FOSS
+- [x] FOSS
 - [x] CLI

@@ -16,26 +16,10 @@ After pay in sats
 
 The channel is open
 
-## Run software
+## Run LL
 
-**Pre Resqusite**
+Check [here] 
 
-- Cargo
-
-To build your CLI application, navigate to the project directory in the terminal and run:
-
-```cargo
-cargo build
-```
-
-To run your CLI application
-```cargo
-cargo run -- <main.rs> <cli.rs>
-```
-Replace PUBKEY_HEX, KIND, CONTENT, TAG1,TAG2, and SECRET_KEY_HEX with your actual data.
-```cargo
-cargo run -- -p PUBKEY_HEX -k KIND -c CONTENT -t TAG1,TAG2 -s SECRET_KEY_HEX
-```
 ## Roadmap
 
 - [X] Testnet/Signet

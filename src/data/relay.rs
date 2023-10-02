@@ -1,5 +1,12 @@
 use nostr::kind0;
 use nostr::nip05;
+use nostr::{relay, npub};
+
+
+fn relay(
+    relay: 'wss://relay.damus.io',
+
+    };
 
 fn create_event(
     pubkey_hex: &str,

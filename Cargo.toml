@@ -5,7 +5,7 @@ version = "1.0.0-beta"
 
 [dependencies]
 rust-dlc = "0.4.0"
-ldk = "0.0.116"
+ldk = "0.0.117"
 nostr = "0.23"
 
 [dlc]

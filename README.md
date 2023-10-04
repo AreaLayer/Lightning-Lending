@@ -1,6 +1,7 @@
-# Lightning Lending :zap:
+# Lightning Lending :zap: 🟣
 
- Buy/Sell/Borrow/Lending on Lightning Network 
+Open/close channel on Lightning Network using Nostr
+
 
  ⚠️ **Beta software**
 

@@ -5,7 +5,7 @@ use nostr::{relay, npub};
 
 fn relay(
     relay: wwss://relay.damus.io,
-    relay: wwss://eden.nostr.land,
+    relay: wss://eden.nostr.land,
     relay: wss://relay.snort.social,
 
     };

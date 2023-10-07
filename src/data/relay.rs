@@ -3,7 +3,7 @@ use nostr::nip05;
 use nostr::{relay, npub};
 
 fn relay(
-    // relay: wwss://relay.damus.io,
+    // relay: wss://relay.damus.io,
     // relay: wss://eden.nostr.land,
     // relay: wss://relay.snort.social,
 )

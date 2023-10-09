@@ -4,6 +4,7 @@ Open/close channel on Lightning Network using Nostr
 
 
  ⚠️ **Beta software**
+ ⚠️**Use small amounts**
 
  **Contributions are welcome**
  

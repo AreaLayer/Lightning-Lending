@@ -2,7 +2,20 @@
 
 ### Prerequisite
 
+- Rust
+- LND
+- Rust Nostr
+- Nostr profile (Npub)
+
 Before running the CLI application, ensure that you have Cargo installed on your system.
+
+### Add LND
+
+Add into your application LND endpoint
+
+```env
+LND_ENDPOINT =
+```
 
 ## Building the Application
 

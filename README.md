@@ -21,6 +21,10 @@ After pay in sats
 
 The channel is open
 
+## NIP used
+
+[Check here](https://github.com/AreaLayer/NIP-xxx)
+
 ## Run LL
 
 Check [here](https://github.com/AreaLayer/Lightning-Lending/blob/main/doc/run.md)

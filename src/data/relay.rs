@@ -1,4 +1,7 @@
+use std::nostr;
+
 use nostr::kind0;
+use nostr::kind
 use nostr::nip05;
 use nostr::{relay, npub};
 

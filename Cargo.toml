@@ -4,7 +4,7 @@ version = "1.0.1-beta"
 
 
 [dependencies]
-rust-dlc = "0.4.0"
+rust_dlc = "0.4.0"
 ldk = "0.0.117"
 nostr = "0.23"
 

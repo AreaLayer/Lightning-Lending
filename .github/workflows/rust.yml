@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setup Rust
-     uses: ATiltedTree/setup-rust@v1.0.5 
+     uses: ATiltedTree/setup-rust@v1.0.0
       - name: Setup | Rust
         uses: ATiltedTree/setup-rust@v1
         with:

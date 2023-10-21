@@ -1,7 +1,7 @@
 {
   "homepage":
   "name":"lightning-lending"
-  "version":"1.0.0-beta"
+  "version":"1.0.1-beta"
  "private": true,
   "dependencies": {
     "react": "^18.1.0",

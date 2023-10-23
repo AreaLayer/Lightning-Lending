@@ -32,3 +32,6 @@ Check [here](https://github.com/AreaLayer/Lightning-Lending/blob/main/doc/run.md
 ## Roadmap
 
 - [ ] Mainnet
+- [ ] Add new features
+- [ ] Fix issues and bugs
+- [ ] Release out of beta

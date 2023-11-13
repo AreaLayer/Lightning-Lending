@@ -9,12 +9,14 @@
 
 Before running the CLI application, ensure that you have Cargo installed on your system.
 
-### Add LND
+### Add LND, CLN or Eclair endpoint
 
 Add into your application LND endpoint
 
 ```env
 LND_ENDPOINT =
+ECLAIR_API_ENDPOINT =
+CLN_API_ENDPOINT =
 ```
 
 ## Building the Application

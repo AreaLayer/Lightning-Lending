@@ -3,7 +3,7 @@
 Open/close channel on Lightning Network using Nostr
 
 
- ⚠️ **Beta software**
+ ⚠️ **Beta software and WIP**
  
  ⚠️**Use small amounts**
 

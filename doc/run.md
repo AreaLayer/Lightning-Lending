@@ -4,6 +4,8 @@
 
 - Rust
 - LND
+- CLN (Soon)
+- Eclair (Soon)
 - Rust Nostr
 - Nostr profile (Npub)
 - Testnet

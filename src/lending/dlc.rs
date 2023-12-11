@@ -1,3 +1,4 @@
+use crate::dlc::DlcHandler;
 use bitcoin::util::psbt::PartiallySignedTransaction as Psbt;
 use dlc::{BtcDlc, ContractInfo, Dlc, DlcManager, OracleInfo, OfferChannel, AcceptChannel, SignOffer}
 use std::collections::HashMap;

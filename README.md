@@ -1,7 +1,6 @@
 # Lightning Lending :zap: 🟣
 
-Open/close channel on Lightning Network using Nostr
-
+Open/close channel on Lightning Network using Nostr and DLCs
 
  ⚠️ **Beta software and WIP**
  

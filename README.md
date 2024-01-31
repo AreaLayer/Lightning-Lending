@@ -1,4 +1,4 @@
-# Lightning Lending :zap: 🟣
+# Lightning Lending :zap: 🟣 🪙
 
 Open/close channel on Lightning Network using Nostr and DLCs
 

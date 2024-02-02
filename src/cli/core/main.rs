@@ -15,7 +15,7 @@ use nostr::{serialize, deserialize};
 use nostr::{EventKind0};
 
 #[derive(Debug, Serialize, Deserialize)]
-struct MyEvent {
+struct Event {
     id: String,
     pubkey: String,
     created_at: u64,
@@ -27,7 +27,7 @@ struct MyEvent {
 
 fn main() {
     let matches = App::new("Event Generator CLI")
-        .version("1.0")
+        .version("1.0.4-beta")
         .author("Your Name")
         .about("Generates an event in Rust based on provided data")
         .arg(

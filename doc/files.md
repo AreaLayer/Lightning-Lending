@@ -1,4 +1,4 @@
-# Files Lightning Lending ⚡
+# Files Lightning Lending ⚡ 🟣
 
 - CLI: CLI command for LL
 - Data: Database for LL

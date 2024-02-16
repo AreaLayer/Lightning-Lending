@@ -7,4 +7,3 @@ version = "1.0.5-beta"
 rust_dlc = "0.4.0"
 ldk = "0.0.120"
 nostr = "0.23"
-[dev.dependecies]

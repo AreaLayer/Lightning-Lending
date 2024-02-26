@@ -1,9 +1,9 @@
 [package]
 name = "Lightning_Lending"
-version = "1.0.5-beta"
+version = "1.0.6-beta"
 
 
 [dependencies]
 rust_dlc = "0.4.0"
-ldk = "0.0.120"
+ldk = "0.0.121"
 nostr = "0.23"

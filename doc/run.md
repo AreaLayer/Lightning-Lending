@@ -3,7 +3,8 @@
 ### Prerequisite
 
 - Rust
-- LND / LDK
+- LND 
+- LDK Node
 - CLN (Soon)
 - Eclair (Soon)
 - Rust Nostr

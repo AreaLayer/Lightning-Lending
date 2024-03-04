@@ -35,3 +35,5 @@ Check [here](https://github.com/AreaLayer/Lightning-Lending/blob/main/doc/run.md
 - [x] Fix issues and bugs
 - [ ] Release out of beta in 2024
 - [ ] NIP-88 integration
+- [ ] Taproot
+- [ ] RBF

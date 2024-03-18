@@ -5,6 +5,7 @@ extern crate sha2;
 extern crate secp256k1;
 extern crate hex;
 extern crate nostr;
+extern crate rbf;
 
 use clap::{App, Arg};
 use std::str::FromStr;

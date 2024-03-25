@@ -16,7 +16,7 @@ Before running the CLI application, ensure that you have Cargo installed on your
 
 ### Add LND, CLN or Eclair endpoint
 
-Add into your application LND endpoint
+Add into your application LND, Eclair or CLN endpoint via ENV
 
 ```env
 LND_ENDPOINT =

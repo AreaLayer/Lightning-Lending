@@ -1,6 +1,6 @@
 [package]
 name = "Lightning_Lending"
-version = "1.0.7-beta"
+version = "1.0.8-beta"
 
 
 [dependencies]

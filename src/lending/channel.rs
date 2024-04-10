@@ -3,7 +3,9 @@ use lightning::ln::channelmanager::{ChannelManager, ChannelManagerReadArgs};
 use lightning::ln::peer_handler::{MessageHandler, PeerHandler, SocketDescriptor};
 use lightning::util::config::UserConfig;
 use std::sync::Arc;
-let confing = BitcoinTestnet
+
+
+let confing = BitcoinTestnet;
 
 let config = UserConfig::default(); // Set your Lightning node configuration here
 let channel_manager = ChannelManager::new(

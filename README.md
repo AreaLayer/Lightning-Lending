@@ -37,3 +37,4 @@ Check [here](https://github.com/AreaLayer/Lightning-Lending/blob/main/doc/run.md
 - [ ] NIP-88 integration
 - [ ] Taproot
 - [ ] RBF
+- [ ] WASM

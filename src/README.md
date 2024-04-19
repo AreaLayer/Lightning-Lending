@@ -1,4 +1,4 @@
-## Lightning Lending 
+## Lightning Lending ⚡
 
 - CLI
 - Lightning

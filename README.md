@@ -38,3 +38,9 @@ Check [here](https://github.com/AreaLayer/Lightning-Lending/blob/main/doc/run.md
 - [ ] Taproot
 - [ ] RBF
 - [ ] WASM
+
+## Contributors
+
+<a align="center" href="https://github.com/AreaLayer/Lightning-Lending/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=FrostDevKit/javascript-frost" />
+</a>

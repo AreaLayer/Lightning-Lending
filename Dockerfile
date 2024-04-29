@@ -1,3 +1,7 @@
 # Nostr
 
+$ nostr
+
 # DLC
+
+$ dlc

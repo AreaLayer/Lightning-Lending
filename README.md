@@ -38,6 +38,8 @@ Check [here](https://github.com/AreaLayer/Lightning-Lending/blob/main/doc/run.md
 - [ ] Taproot
 - [ ] RBF
 - [ ] WASM
+- [ ] BOLT12 support
+- [ ] DMs
 
 ## Contributors
 

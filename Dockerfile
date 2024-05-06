@@ -1,6 +1,6 @@
 # Nostr
 
-$ nostr
+$ nostr cli
 
 # DLC
 

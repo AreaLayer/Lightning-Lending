@@ -1,4 +1,6 @@
 use crate::dlc::DlcHandler;
+use crate::Event;
+
 use std::time::{SystemTime, UNIX_EPOCH};
 use std::str::FromStr;
 use sha2::{Sha256, Digest};

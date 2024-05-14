@@ -40,6 +40,7 @@ Check [here](https://github.com/AreaLayer/Lightning-Lending/blob/main/doc/run.md
 - [ ] WASM
 - [ ] BOLT12 support
 - [ ] DMs
+- [ ] Testnet4
 
 ## Contributors
 

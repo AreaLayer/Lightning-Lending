@@ -39,6 +39,7 @@ Check [here](https://github.com/AreaLayer/Lightning-Lending/blob/main/doc/run.md
 - [ ] BOLT12 support
 - [ ] DMs
 - [ ] Testnet4
+- [ ] Bitcoin Knots
 
 ## Contributors
 

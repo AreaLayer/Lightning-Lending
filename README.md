@@ -40,6 +40,7 @@ Check [here](https://github.com/AreaLayer/Lightning-Lending/blob/main/doc/run.md
 - [ ] DMs
 - [ ] Testnet4
 - [ ] Bitcoin Knots
+- [ ] Mutinynet
 
 ## Contributors
 

@@ -6,6 +6,8 @@ Open/close channel on Lightning Network using Nostr and DLCs
  
  ⚠️**Use small amounts**
 
+ ⚠️**Only via Testnet3**
+
  **Contributions are welcome**
  
 ## How works

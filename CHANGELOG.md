@@ -1,3 +1,3 @@
-## Lightning Lending Releases and Development
+## Lightning Lending Releases and Development ⚡
 
 TBD

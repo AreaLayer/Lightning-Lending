@@ -8,8 +8,7 @@ use lightning::ln::channelmanager::{ChannelManager, ChannelManagerReadArgs};
 use lightning::ln::peer_handler::{MessageHandler, PeerHandler, SocketDescriptor};
 use lightning::util::config::UserConfig;
 use lightning::ln::BOLT12;
-
-
+use ldk_node::lightning::ln::msgs::SocketAddress;
 
 let confing = BitcoinTestnet;
 

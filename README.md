@@ -33,7 +33,6 @@ Check [here](https://github.com/AreaLayer/Lightning-Lending/blob/main/doc/run.md
 ## Roadmap
 
 - [ ] Mainnet
-- [ ] Release out of beta in 2024
 - [ ] NIP-88 integration
 - [ ] Taproot
 - [ ] RBF

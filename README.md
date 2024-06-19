@@ -40,6 +40,7 @@ Check [here](https://github.com/AreaLayer/Lightning-Lending/blob/main/doc/run.md
 - [ ] RBF
 - [ ] WASM
 - [ ] BOLT12 support
+- [X] BOLT11 support
 - [ ] DMs
 - [ ] Testnet4
 - [ ] Bitcoin Knots

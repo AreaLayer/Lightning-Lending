@@ -12,27 +12,27 @@ Open/close channel on Lightning Network using Nostr and DLCs
 
  **Contributions are welcome**
  
-## How works
+### How works
 
-Lending channels direct on Lightning Network
+*1. Lending channels direct on Lightning Network
 
-Channel A opens with B with DLCs and Relays
+2. Channel A opens with B with DLCs and Relays
 
-Define HTLC, CLTV time with DLCs
+3. Define HTLC, CLTV time with DLCs
 
-After pay in sats
+4. After pay in sats
 
-The channel is open
+5.The channel is open*
 
-## NIP used
+### NIP used
 
 [Check here](https://github.com/AreaLayer/NIP-xxx)
 
-## Run LL
+### Run LL
 
 Check [here](https://github.com/AreaLayer/Lightning-Lending/blob/main/doc/run.md)
 
-## Roadmap
+### Roadmap
 
 - [ ] Mainnet
 - [ ] NIP-88 integration

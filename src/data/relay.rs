@@ -11,8 +11,6 @@ fn relay(
     // relay: wss://relay.snort.social,
 )
 
-    };
-
 fn create_event(
     pubkey_hex: &str,
     kind: u16,

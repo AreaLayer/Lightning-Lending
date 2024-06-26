@@ -28,9 +28,9 @@ struct Event {
 
 fn main() {
     let matches = App::new("Event Generator CLI")
-        .version("1.0.4-beta")
-        .author("Your Name")
-        .about("Generates an event in Rust based on provided data")
+        .version("1.0.9-beta")
+        .author("Area Layer")
+        .about("Open/close channels and make payments using Nostr and Lightning Network via CLI by LL")
         .arg(
             Arg::with_name("pubkey")
                 .short("p")

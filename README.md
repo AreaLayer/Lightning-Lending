@@ -37,7 +37,8 @@ Check [here](https://github.com/AreaLayer/Lightning-Lending/blob/main/doc/run.md
 - [ ] Mainnet
 - [ ] NIP-88 integration
 - [ ] Taproot
-- [ ] RBF
+- [x] RBF
+- [X] CLI
 - [ ] WASM
 - [ ] BOLT12 support
 - [X] BOLT11 support

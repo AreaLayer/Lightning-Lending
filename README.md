@@ -14,7 +14,7 @@ Open/close channel on Lightning Network using Nostr and DLCs
  
 ### How works
 
-*1. Lending channels direct on Lightning Network
+**1. Lending channels direct on Lightning Network
 
 2. Channel A opens with B with DLCs and Relays
 
@@ -22,7 +22,7 @@ Open/close channel on Lightning Network using Nostr and DLCs
 
 4. After pay in sats
 
-5.The channel is open*
+5. The channel is open**
 
 ### NIP used
 

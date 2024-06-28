@@ -8,4 +8,4 @@ use lightning_lending::{
   nostr::Nostr,
   dlc::Dlc,
   lightning::Lightning,
-}
+};

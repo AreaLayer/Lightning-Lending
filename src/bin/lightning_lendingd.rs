@@ -4,7 +4,8 @@ use std::nostr;
 
 
 use lightning_lending::{
-  bitcoin::
-  nostr::
-  lightning::
-  dlc::
+  bitcoin::Bitcoin,
+  nostr::Nostr,
+  dlc::Dlc,
+  lightning::Lightning,
+}

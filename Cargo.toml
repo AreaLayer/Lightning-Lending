@@ -1,10 +1,17 @@
 [package]
 name = "Lightning_Lending"
 version = "1.0.11-beta"
+license = "MIT"
+authors = ["22388"]
+description = "A lightning lending library & cli by Nostr/LDK/DLCs"
+repository = "https://github.com/AreaLayer/Lightning_Lending"
+documentation = "https://docs.rs/lightning_lending"
+keywords = ["lightning", "lending", "lnd", "bitcoin", "dlc"]
+categories = ["cryptography", "Bitcoin", "Lightning"]
 
 
 [dependencies]
 dlc = "0.4.0"
 lightning = "0.0.123"
 nostr = "0.32.0"
-bdk = "1.0.0-alpha.13"
+bdk = "1.0.0-alpha.11"

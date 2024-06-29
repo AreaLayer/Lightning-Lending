@@ -6,7 +6,7 @@ authors = ["22388"]
 description = "A lightning lending library & cli by Nostr/LDK/DLCs"
 repository = "https://github.com/AreaLayer/Lightning_Lending"
 documentation = "https://docs.rs/lightning_lending"
-keywords = ["lightning", "lending", "lnd", "bitcoin", "dlc"]
+keywords = ["lightning", "lending", "lnd", "bitcoin", "dlc", "nostr"]
 categories = ["cryptography", "Bitcoin", "Lightning"]
 
 
@@ -15,3 +15,8 @@ dlc = "0.4.0"
 lightning = "0.0.123"
 nostr = "0.32.0"
 bdk = "1.0.0-alpha.11"
+
+
+[[bin]]
+name = "lightning_lendingd"
+path = "src/bin/lightning_lendingd.rs"

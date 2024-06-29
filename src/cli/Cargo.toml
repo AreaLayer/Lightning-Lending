@@ -1,7 +1,11 @@
 [package]
+name = "cli"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
 
-lihgtning lending = "1.0.0"
-
-[package nostr]
-
-[package ldk]
+[dependencies]
+clap = { version = "4.0", features = ["derive"] }
+anyhow = "1.0"
+log = "0.4"
+env_logger = "0.9"

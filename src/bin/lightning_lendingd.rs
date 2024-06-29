@@ -15,8 +15,11 @@ use crate::lightning_lending::{
 
 fn main() {
 
-  let logger = Logger::new();
 
+  env_logger::init();
+
+  info!("Logger initialized");
+  
   // Assuming these `new` methods exist and accept a logger
   let lightning = Lightning::new(&logger);
   let bitcoin = Bitcoin::new(&logger);

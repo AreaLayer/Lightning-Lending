@@ -13,6 +13,13 @@ use crate::lightning_lending::{
     lightning::Lightning,
 };
 
+struct Logger;
+
+impl Logger {
+    fn new() -> Self {
+        Logger
+    }
+}
 fn main() {
 
 

@@ -4,7 +4,7 @@ use crate::Event;
 use std::time::{SystemTime, UNIX_EPOCH};
 use std::str::FromStr;
 use sha2::{Sha256, Digest};
-use secp256k1::{Secp256k1, Message, SecretKey, PublicKey, sign, Signature};
+use secp256k1::{Secp256k1, Message, SecretKey, PublicKey, Sign, Signature};
 use nostr::{serialize, deserialize};
 
 fn create_event(

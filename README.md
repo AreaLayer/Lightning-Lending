@@ -39,6 +39,7 @@ Check [here](https://github.com/AreaLayer/Lightning-Lending/blob/main/doc/run.md
 - [ ] Taproot
 - [ ] Fix bugs
 - [x] RBF
+- [ ] P2P Nostr
 - [X] CLI
 - [ ] WASM
 - [ ] BOLT12 support

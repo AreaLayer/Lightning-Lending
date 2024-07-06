@@ -10,7 +10,7 @@ use lightning::util::config::UserConfig;
 use lightning::ln::BOLT12;
 use ldk_node::lightning::ln::msgs::SocketAddress;
 
-let confing = BitcoinTestnet;
+let confing = BitcoinTestnet; // You can switch between testnet and mainnet here
 
 let config = UserConfig::default(); // Set your Lightning node configuration here
 let channel_manager = ChannelManager::new(

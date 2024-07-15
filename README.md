@@ -43,7 +43,7 @@ Check [here](https://github.com/AreaLayer/Lightning-Lending/blob/main/doc/run.md
 - [X] CLI
 - [ ] WASM
 - [x] BOLT12 support
-- [X] BOLT11 support
+- [ ] BOLT11 support
 - [ ] DMs
 - [ ] Testnet4
 - [ ] Bitcoin Knots

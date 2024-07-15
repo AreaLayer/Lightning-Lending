@@ -42,7 +42,7 @@ Check [here](https://github.com/AreaLayer/Lightning-Lending/blob/main/doc/run.md
 - [ ] P2P Nostr
 - [X] CLI
 - [ ] WASM
-- [ ] BOLT12 support
+- [x] BOLT12 support
 - [X] BOLT11 support
 - [ ] DMs
 - [ ] Testnet4

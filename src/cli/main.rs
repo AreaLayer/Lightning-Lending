@@ -30,7 +30,7 @@ fn main() {
     let matches = App::new("Event Generator CLI")
         .version("1.0.12-beta")
         .author("Area Layer")
-        .about("Open/close channels and make payments using Nostr and Lightning Network via CLI by LL")
+        .about("Open/close channels and make payments using Nostr and Lightning Network via CLI")
         .arg(
             Arg::with_name("pubkey")
                 .short("p")

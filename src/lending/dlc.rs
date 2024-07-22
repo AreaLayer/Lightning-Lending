@@ -18,6 +18,7 @@ let contract_info = ContractInfo {
     local_collateral: 2000000, // Collateral amount (in sats)
     lock_time: 1648704000, // Timestamp for May 1, 2023 (when the contract becomes active)
     refund_lock_time: 1649790400, // Timestamp for May 12, 2023 (when the refund can be claimed)
+    oracle_pub_key: oracle_pub_key, // Oracle's public key
 };
 let dlc_manager = DlcManager::new();
 let dlc = BtcDlc::new(

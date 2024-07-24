@@ -1,5 +1,8 @@
 # Lightning Lending :zap: 🟣 🪙
 
+[![Bitcoin-only](https://img.shields.io/badge/bitcoin-only-FF9900?logo=bitcoin)](https://twentyone.world)
+[![LN](https://img.shields.io/badge/lightning-792EE5?logo=lightning)](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Lightning_Network.svg/2048px-Lightning_Network.svg.png)
+
 Open/close channel on Lightning Network using Nostr and DLCs
 
  ⚠️ **Beta software and WIP**

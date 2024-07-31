@@ -3,12 +3,7 @@ extern crate dlc;
 extern crate nostr;
 extern crate env_logger;
 
-use lightning::{util::logger::Logger as LightningLogger}; // Renamed to avoid conflict
-use dlc::{Contract, PayoutCurve}; // Assuming these are directly available
-use nostr::NodeClient;
-use log::info;
-
-struct AppLogger;
+pub struct AppLogger;
 
 impl AppLogger {
     fn new() -> Self {

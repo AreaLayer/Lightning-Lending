@@ -3,10 +3,7 @@ extern crate dlc;
 extern crate nostr;
 extern crate env_logger;
 
-pub struct AppLogger;
-
-impl AppLogger {
-    fn new() -> Self {
-        AppLogger
-    }
+fn main() {
+    env_logger::init();
+    lightning::run();
 }

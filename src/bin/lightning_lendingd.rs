@@ -1,7 +1,6 @@
 extern crate lightning;
 extern crate dlc;
 extern crate nostr;
-extern crate log;
 extern crate env_logger;
 
 use lightning::{util::logger::Logger as LightningLogger}; // Renamed to avoid conflict

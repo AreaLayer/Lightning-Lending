@@ -51,6 +51,7 @@ Check [here](https://github.com/AreaLayer/Lightning-Lending/blob/main/doc/run.md
 - [ ] BOLT11 support
 - [ ] DMs
 - [ ] Testnet4
+- [ ] LSP
 - [ ] Bitcoin Knots
 - [ ] Mutinynet
 

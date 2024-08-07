@@ -48,7 +48,7 @@ Check [here](https://github.com/AreaLayer/Lightning-Lending/blob/main/doc/run.md
 - [X] CLI
 - [ ] WASM
 - [x] BOLT12 support
-- [ ] BOLT11 support
+- [x] BOLT11 support
 - [ ] DMs
 - [ ] Testnet4
 - [ ] LSP

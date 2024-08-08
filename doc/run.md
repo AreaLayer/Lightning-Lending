@@ -5,8 +5,8 @@
 - Rust
 - LND 
 - LDK Node
-- CLN (Soon)
-- Eclair (Soon)
+- CLN 
+- Eclair 
 - Rust Nostr
 - Nostr profile (Npub)
 - Testnet
@@ -22,6 +22,7 @@ Add into your application LND, Eclair or CLN endpoint via ENV
 LND_ENDPOINT =
 ECLAIR_API_ENDPOINT =
 CLN_API_ENDPOINT =
+
 ```
 
 ## Building the Application

@@ -1,4 +1,4 @@
-FROM rust:1.80.0 as builder
+FROM rust:1.80.1 as builder
 FROM bdk:1.0.0-beta.1 as bdk
 FROM nostr:0.30.0 as nostr
 FROM dlc:0.5.0 as dlc

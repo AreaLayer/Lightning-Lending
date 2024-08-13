@@ -10,25 +10,26 @@ use lightning::util::config::UserConfig;
 use lightning::ln::BOLT12;
 use ldk_node::lightning::ln::msgs::SocketAddress;
 
-let confing = BitcoinTestnet; // You can switch between testnet and mainnet here
+use bitcoin::network::constants::Network;
 
-let config = UserConfig::default(); // Set your Lightning node configuration here
-let channel_manager = ChannelManager::new(
-    chain_source, // Your chain interface implementation
-    keys_manager, // Your keys manager implementation
-    fee_estimator, // Your fee estimator implementation
-    tx_broadcaster, // Your broadcaster interface implementation
-    logger, // Your logging implementation
+let network = Network::Testnet; // You can switch between testnet and mainnet herelet config = UserConfig::default();let channel_manager = ChannelManager::new(
+    chain_source: chain_source,    keys_manager, // Your keys manager implementation
+    fee_estimator: Arc::new(fee_estimator.clone()), // Your fee estimator implementation    tx_broadcaster, // Your broadcaster interface implementation
+    logger: Arc::new(logger.clone()),
     config,
-    Some(ChannelManagerReadArgs {
-        keys_manager_arc: Arc::new(keys_manager.clone()),
-        fee_estimator_arc: Arc::new(fee_estimator.clone()),
-    }),
-    message_handler, // Your message handler implementation
-    Some(socket_descriptor), // Your socket descriptor implementation
-);
-/ Define the network you want to use, e.g. testnet or mainnet
-let network = bitcoin::network::constants::Network::Testnet;
 
-let peer_handler = PeerHandler::new(channel_manager);
-peer_handler.connect_to_peer(peer_address); // Connect to your counterparty's Lightning node
+
+
+    Some(ChannelManagerReadArgs::new(
+        Arc::new(keys_manager.clone()),
+        Arc::new(fee_estimator.clone()),
+    )),    message_handler, // Your message handler implementation
+    Some(socket_descriptor!), // Your socket descriptor implementation);
+
+let peer_handler = PeerHandler::new(
+    channel_manager.clone(),
+    Arc::new(keys_manager.clone()),
+    Arc::new(logger.clone()),
+    Arc::new(peer_handler_constructor),
+);
+peer_handler.connect_peer(peer_address, None).unwrap();

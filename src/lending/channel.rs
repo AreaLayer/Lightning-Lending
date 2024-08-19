@@ -12,9 +12,11 @@ use ldk_node::lightning::ln::msgs::SocketAddress;
 
 use bitcoin::network::constants::Network;
 
-let network = Network::Testnet; // You can switch between testnet and mainnet herelet config = UserConfig::default();let channel_manager = ChannelManager::new(
-    chain_source: chain_source,    keys_manager, // Your keys manager implementation
-    fee_estimator: Arc::new(fee_estimator.clone()), // Your fee estimator implementation    tx_broadcaster, // Your broadcaster interface implementation
+let network = Network::Testnet; // You can switch between testnet and mainnet here
+let config = UserConfig::default();
+let channel_manager = ChannelManager::new(
+    chain_source: Arc::new(chain_source),
+    keys_manager: Arc::new(keys_manager), // Your keys manager implementation    fee_estimator: Arc::new(fee_estimator.clone()), // Your fee estimator implementation    tx_broadcaster, // Your broadcaster interface implementation
     logger: Arc::new(logger.clone()),
     config,
 

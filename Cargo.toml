@@ -17,7 +17,7 @@ nostr = "=0.34.0"
 bdk = "=1.0.0-alpha.11"
 env_logger = "=0.11.5"
 wasm-pack = "=0.13.0"
-miniscript = "12.2.0"
+miniscript = "=12.2.0"
 
 
 

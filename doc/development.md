@@ -1,3 +1,0 @@
-# Lightning Lending Developement 
-
-TBD

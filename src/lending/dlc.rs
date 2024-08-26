@@ -24,7 +24,7 @@ let contract_info = ContractInfo {
 
 let dlc_manager = DlcManager::new();
 
-let dlc = BtcDlc::new(
+let dlc = Dlc::new(
     contract_info,
     oracle_info,
     dlc_manager.get_random_bytes(32),

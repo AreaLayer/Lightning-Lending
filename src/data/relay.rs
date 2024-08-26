@@ -5,11 +5,13 @@ use nostr::kind30090;
 use nostr::nip05;
 use nostr::{relay, npub, nsec};
 
-fn relay(
-    // relay: wss://relay.damus.io,
-    // relay: wss://eden.nostr.land,
-    // relay: wss://relay.snort.social,
-)
+fn relay() -> Vec<String> {
+    vec![
+        "wss://relay.damus.io".to_string(),
+        "wss://eden.nostr.land".to_string(),
+        "wss://relay.snort.social".to_string(),
+    ]
+}
 
 fn create_event(
     pubkey_hex: &str,

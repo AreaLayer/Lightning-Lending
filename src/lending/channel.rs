@@ -12,7 +12,7 @@ use ldk_node::lightning::ln::msgs::SocketAddress;
 
 use bitcoin::network::constants::Network;
 
-
+fn main(){
 let network = Network::Testnet; // You can switch between testnet and mainnet here
 let config = UserConfig::default();
 
@@ -34,4 +34,5 @@ let peer_handler = PeerHandler::new(
     message_handler,
 );
 
-peer_handler.connect_peer(peer_address, None).unwrap();
+peer_handler.connect_peer(peer_address, None).unwrap()
+}

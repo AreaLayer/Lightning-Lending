@@ -1,4 +1,4 @@
-use bitcoin::BumpFee:::RBF;
+use bitcoin::BumpFee::RBF;
 
 fn main() {
     let mut rbf = RBF::new();

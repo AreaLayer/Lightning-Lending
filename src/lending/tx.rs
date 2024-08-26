@@ -45,6 +45,4 @@ impl lightning::TX for TX {
     fn add_output(&mut self, output: TXOutput) {
         self.outputs.push(output);
     }
-
-
-
+}

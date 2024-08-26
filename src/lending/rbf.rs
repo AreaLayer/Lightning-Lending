@@ -3,7 +3,7 @@ use bitcoin::Transaction;
 use bitcoin::TX;
 use bitcoin::BumpFee::RBF;
 
-fn main {
+fn main() {
     let tx: TX = bitcoin::Transaction::default();
     let new_tx = tx.bump_fee(RBF);
     println!("{:?}", new_tx);

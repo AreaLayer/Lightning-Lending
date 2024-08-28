@@ -12,3 +12,8 @@ pub fn get_miniscript_address(secret_key: &SecretKey, network: Network) -> Minis
     let public_key = PublicKey::from_secret_key(secret_key);
     MiniscriptPublicKey::from_public_key(&public_key);
 }
+
+pub fn get_miniscript_address_from_string(address: &str, network: Network) -> MiniscriptPublicKey {
+    let public_key = PublicKey::from_str(address).unwrap();
+    MiniscriptPublicKey::from_public_key(&public_key);
+}

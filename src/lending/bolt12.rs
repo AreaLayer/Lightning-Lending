@@ -12,6 +12,7 @@ impl BOLT12 {
         payment_hash: PaymentHash,
         payment_secret: PaymentSecret,
         channel_update: ChannelUpdate,
+        onion_chain_data: Vec<u8>,
     ) -> Self {
         let mut writer = Writer::new();
         writer.write_node_id(&node_id);

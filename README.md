@@ -41,7 +41,7 @@ Check [here](https://github.com/AreaLayer/Lightning-Lending/blob/main/doc/run.md
 
 - [ ] Mainnet
 - [ ] NIP-88 integration
-- [ ] Taproot
+- [x] Taproot
 - [ ] Fix bugs
 - [x] RBF
 - [ ] P2P Nostr

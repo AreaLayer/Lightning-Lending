@@ -1,6 +1,6 @@
 [package]
 name = "Lightning_Lending"
-version = "1.0.14-beta"
+version = "1.0.15-beta"
 license = "MIT"
 authors = ["22388"]
 description = "A lightning lending library & cli by Nostr/LDK/DLCs"

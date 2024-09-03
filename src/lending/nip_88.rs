@@ -4,6 +4,10 @@ use nostr::Sign;
 use nostr::Event;
 use nostr::Relay;
 
+use nip88::Eventkid_88;
+use nip88::Eventkind_89;
+use nip88::Eventkind_90;
+
 pub (crate) fn NP_88() {
     let nip = Nip::new(PubKey::from_str("pubkey").unwrap());
     let event = Event::from(nip);

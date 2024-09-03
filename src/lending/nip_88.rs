@@ -4,7 +4,15 @@ use nostr::Sign;
 use nostr::Event;
 use nostr::Relay;
 
-
+pub (crate) fn NP_88() {
+    let nip = Nip::new(PubKey::from_str("pubkey").unwrap());
+    let event = Event::from(nip);
+    let relay = Relay::new("wss://relay.example.com");
+    let Eventkid_88 = nip.sign(&event);
+    let Eventkind_89 = nip.sign(&event);
+    let Eventkind_90 = nip.sign(&event);
+    relay.publish(event);
+}
 impl Nip {
     pub fn new(pubkey: PubKey) -> Self {
         Self {

@@ -4,6 +4,7 @@ use nostr::Sign;
 use nostr::Event;
 use nostr::Relay;
 
+
 impl Nip {
     pub fn new(pubkey: PubKey) -> Self {
         Self {
@@ -55,5 +56,11 @@ impl From<Nip> for Event {
 impl From<Relay> for Event {
     fn from(relay: Relay) -> Self {
         Event::Relay(relay)
+    }
+}
+
+impl From<Oracle> for Event {
+    fn from(oracle: Oracle) -> Self {
+        Event::Oracle(oracle)
     }
 }

@@ -64,3 +64,48 @@ impl From<Oracle> for Event {
         Event::Oracle(oracle)
     }
 }
+
+pub (crate) fn Eventkind8_888(event: Event) -> Event {
+    match event {
+        Event::Nip(nip) => Event::Nip(nip),
+        Event::Relay(relay) => Event::Relay(relay),
+        Event::Oracle(oracle) => Event::Oracle(oracle),
+        _ => Event::Nip(Nip::new(PubKey::from(""))),
+    }
+}
+
+pub (crate) fn Evetkind_30_088 (event: Event) -> Event {
+    match event {
+        Event::Nip(nip) => Event::Nip(nip),
+        Event::Relay(relay) => Event::Relay(relay),
+        Event::Oracle(oracle) => Event::Oracle(oracle),
+        _ => Event::Nip(Nip::new(PubKey::from(""))),
+    }
+}
+
+pub (crate) fn Eventkid_88(event: Event) -> Event {
+    match event {
+        Event::Nip(nip) => Event::Nip(nip),
+        Event::Relay(relay) => Event::Relay(relay),
+        Event::Oracle(oracle) => Event::Oracle(oracle),
+        _ => Event::Nip(Nip::new(PubKey::from(""))),
+    }
+}
+
+pub (crate) fn Eventkind_89(event: Event) -> Event {
+    match event {
+        Event::Nip(nip) => Event::Nip(nip),
+        Event::Relay(relay) => Event::Relay(relay),
+        Event::Oracle(oracle) => Event::Oracle(oracle),
+        _ => Event::Nip(Nip::new(PubKey::from(""))),
+    }
+}
+
+pub (crate) fn Eventkind_90(event: Event) -> Event {
+    match event {
+        Event::Nip(nip) => Event::Nip(nip),
+        Event::Relay(relay) => Event::Relay(relay),
+        Event::Oracle(oracle) => Event::Oracle(oracle),
+        _ => Event::Nip(Nip::new(PubKey::from(""))),
+    }
+}

@@ -3,7 +3,7 @@
 [![Bitcoin-only](https://img.shields.io/badge/bitcoin-only-FF9900?logo=bitcoin)](https://twentyone.world)
 [![LN](https://img.shields.io/badge/lightning-792EE5?logo=lightning)](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Lightning_Network.svg/2048px-Lightning_Network.svg.png)
 [![Nostr](https://img.shields.io/badge/nostr-only-FF9900?)]((https://user-images.githubusercontent.com/99301796/223592277-34058d0e-af30-411d-8dfe-87c42dacdcf2.png))
-
+[![Rust](https://github.com/AreaLayer/Lightning-Lending/actions/workflows/rust.yml/badge.svg)](https://github.com/AreaLayer/Lightning-Lending/actions/workflows/rust.yml)
 
 Open/close channel on Lightning Network using Nostr and DLCs
 

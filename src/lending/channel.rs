@@ -9,6 +9,8 @@ use lightning::ln::peer_handler::{MessageHandler, PeerHandler, SocketDescriptor}
 use lightning::util::config::UserConfig;
 use lightning::ln::BOLT12;
 use ldk_node::lightning::ln::msgs::SocketAddress;
+use lightning_liquidity::LiquidityProvider;
+use lightning_liquidity::LSPS0Client;
 
 use bitcoin::network::constants::Network;
 
@@ -21,6 +23,7 @@ let channel_manager = ChannelManager::new(
     Arc::new(keys_manager.clone()), // Clone because it's used in multiple places
     Arc::new(fee_estimator.clone()),
     Arc::new(tx_broadcaster.clone()),
+    Arc::new(LSPS0Client.clone()),
     Arc::new(logger.clone()),
     config,
     network,

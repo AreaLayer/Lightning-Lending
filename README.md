@@ -54,6 +54,7 @@ Check [here](https://github.com/AreaLayer/Lightning-Lending/blob/main/doc/run.md
 - [X] LSP (WIP)
 - [ ] Bitcoin Knots
 - [ ] Mutinynet
+- [ ] CLN Plugin
 
 ## Contributors
 

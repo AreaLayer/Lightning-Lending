@@ -13,3 +13,16 @@ impl From<LSPS0ClientEvent> for Event {
         Event::LSPS0Client(event)
     }
 }
+
+impl From<LSPS2ClientEvent> for Event {
+    fn from(event: LSPS2ClientEvent) -> Self {
+        Event::LSPS2Client(event)
+    }
+}
+
+impl From<LSPS2ServiceEvent> for Event {
+    fn from(event: LSPS2ServiceEvent) -> Self {
+        Event::LSPS2Service(event)
+    }
+}
+

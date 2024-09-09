@@ -42,7 +42,7 @@ Check [here](https://github.com/AreaLayer/Lightning-Lending/blob/main/doc/run.md
 - [ ] Mainnet
 - [x] [NIP-88](https://github.com/nostr-protocol/nips/pull/919) integration (demo)
 - [x] Taproot
-- [ ] Fix bugs
+- [x] Fix bugs
 - [x] RBF
 - [ ] [P2P Nostr](https://github.com/nostr-protocol/nips/pull/1331)
 - [X] CLI
@@ -52,8 +52,6 @@ Check [here](https://github.com/AreaLayer/Lightning-Lending/blob/main/doc/run.md
 - [ ] DMs
 - [ ] Testnet4
 - [X] LSP (WIP)
-- [ ] Bitcoin Knots
-- [ ] Mutinynet
 - [ ] CLN Plugin
 
 ## Contributors

@@ -4,6 +4,7 @@ use Bitcoin::TX;
 use Bitcoin::TXInput;
 use Bitcoin::TXOutput;
 use Bitcoin::Script;
+use bitcoin::Set_lock_time;
 use lightning::TX;
 
 impl TX {
@@ -37,6 +38,9 @@ pub fn add_input(&mut self, input: TXInput) {
 
     pub fn get_output(&self, index: usize) -> &TXOutput {
         &self.outputs[index]
+    }
+    pub fn set_lock_time(&mut self, lock_time: u32) {
+        self.lock_time = lock_time;
     }
 impl lightning::TX for TX {
     fn add_input(&mut self, input: TXInput) {

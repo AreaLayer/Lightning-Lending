@@ -8,6 +8,7 @@ repository = "https://github.com/AreaLayer/Lightning_Lending"
 documentation = "https://docs.rs/lightning_lending"
 keywords = ["lightning", "lending", "lnd", "bitcoin", "dlc", "nostr"]
 categories = ["cryptography", "Bitcoin", "Lightning"]
+edition = "2021"
 
 
 [dependencies]

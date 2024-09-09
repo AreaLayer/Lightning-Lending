@@ -25,6 +25,10 @@ CLN_API_ENDPOINT =
 
 ```
 
+## Build from cargo 
+```cargo
+cargo install lightning-lending
+```
 ## Building the Application
 
 1. Open your terminal.

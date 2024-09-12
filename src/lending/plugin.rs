@@ -18,3 +18,22 @@ impl Plugin for Lending {
         Ok(())
     }
 }
+
+impl Lending {
+    fn new() -> Self {
+        Self
+    }
+}
+
+#[no_mangle]
+pub extern "C" fn plugin_init(
+    context: *mut cln_plugin::PluginContext,
+    request: *mut cln_plugin::PluginRequest,
+    response: *mut cln_plugin::PluginResponse,
+) -> Result<(), cln_plugin::PluginError> {
+    let context = unsafe { &mut *context };
+    let request = unsafe { &mut *request };
+    let response = unsafe { &mut *response };
+    let plugin = Lending::new();
+    plugin.connect_handler(context, request, response)
+    }

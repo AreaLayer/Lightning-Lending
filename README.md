@@ -49,10 +49,9 @@ Check [here](https://github.com/AreaLayer/Lightning-Lending/blob/main/doc/run.md
 - [x] WASM
 - [x] BOLT12 support
 - [x] BOLT11 support
-- [ ] DMs
 - [ ] Testnet4
 - [X] LSP (WIP)
-- [ ] CLN Plugin
+- [x] CLN Plugin
 
 ## Contributors
 

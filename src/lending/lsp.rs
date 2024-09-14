@@ -26,3 +26,10 @@ impl From<LSPS2ServiceEvent> for Event {
     }
 }
 
+fn lightning_liquidity_service_test() {
+    let mut service = LSPS2Service::new(
+        LSPS0Client::new(
+            event_stream()
+        )
+    );
+    }

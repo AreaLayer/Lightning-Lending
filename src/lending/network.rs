@@ -55,3 +55,16 @@ fn is_testnet(network: Network) -> bool {
     }
 }
 
+fn is_regtest(network: Network) -> bool {
+    match network {
+        Regtest => true,
+        _ => false,
+        }
+    }
+
+fn is_bitcoin(network: Network) -> bool {
+    match network {
+        Bitcoin => true,
+        _ => false,
+        }
+        }

@@ -33,3 +33,19 @@ fn lightning_liquidity_service_test() {
         )
     );
     }
+
+fn lightning_liquidity_service_test() {
+    let mut service = LSPS2ServiceEvent::new(
+        LSPS2ServiceEvent::new(
+            event_stream()
+        )
+    );
+    }
+
+fn lightning_liquidity_service_test() {
+    let mut service = LSPS2ServiceEvent::new(
+        LSPS2ServiceEvent::new(
+            event_stream()
+        )
+    );
+    }

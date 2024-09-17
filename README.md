@@ -52,6 +52,7 @@ Check [here](https://github.com/AreaLayer/Lightning-Lending/blob/main/doc/run.md
 - [ ] Testnet4
 - [X] LSP
 - [x] CLN Plugin
+- [ ] LNDK
 
 ## Contributors
 

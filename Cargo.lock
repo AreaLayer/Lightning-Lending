@@ -1551,28 +1551,35 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e664971378a3987224f7a0e10059782035e89899ae403718ee07de85bec42afe"
 
 [[package]]
-name = "nostr"
-version = "0.34.1"
+name = "negentropy"
+version = "0.4.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a1c3c32439eef3ea4d9079b2a8f557992d27259c26527e43d4228dd321e43a77"
+checksum = "43a88da9dd148bbcdce323dd6ac47d369b4769d4a3b78c6c52389b9269f77932"
+
+[[package]]
+name = "nostr"
+version = "0.35.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "56db234b2e07901e372f34e9463f91590579cd8e6dbd34ed2ccc7e461e4ba639"
 dependencies = [
  "aes",
- "base64 0.21.7",
+ "base64 0.22.1",
+ "bech32 0.11.0",
  "bip39",
- "bitcoin 0.31.2",
+ "bitcoin 0.32.2",
  "cbc",
  "chacha20",
  "chacha20poly1305",
  "getrandom",
  "instant",
  "js-sys",
- "negentropy",
+ "negentropy 0.3.1",
+ "negentropy 0.4.3",
  "once_cell",
  "reqwest",
  "scrypt",
  "serde",
  "serde_json",
- "tracing",
  "unicode-normalization",
  "url",
  "wasm-bindgen",
@@ -2125,6 +2132,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0e0cc0f1cf93f4969faf3ea1c7d8a9faed25918d96affa959720823dfe86d4f3"
 dependencies = [
  "bitcoin_hashes 0.14.0",
+ "rand",
  "secp256k1-sys 0.10.0",
  "serde",
 ]

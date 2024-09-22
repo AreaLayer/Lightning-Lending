@@ -31,7 +31,7 @@ Open/close channel on Lightning Network using Nostr and DLCs
 
 ### NIP used
 
-[Check here](https://github.com/AreaLayer/NIP-xxx)
+[Check here](https://github.com/AreaLayer/NIP-300)
 
 ### Run LL
 

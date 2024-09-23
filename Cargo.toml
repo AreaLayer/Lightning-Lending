@@ -22,6 +22,7 @@ miniscript = "=12.2.0"
 lightning-liquidity = "=0.1.0-alpha.5"
 cln-plugin = "0.2.0"
 clap = "=4.5.18"
+anyhow = "1.0.89"
 
 [[bin]]
 name = "lightning_lendingd"

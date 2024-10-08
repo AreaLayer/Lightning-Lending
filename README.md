@@ -39,18 +39,7 @@ Check [here](https://github.com/AreaLayer/Lightning-Lending/blob/main/doc/run.md
 
 ### Roadmap
 
-- [x] Mainnet
-- [x] [NIP-88](https://github.com/nostr-protocol/nips/pull/919) integration (demo)
-- [x] Taproot
-- [x] Fix bugs
-- [x] RBF
 - [ ] [P2P Nostr](https://github.com/nostr-protocol/nips/pull/1331)
-- [X] CLI
-- [x] WASM
-- [x] BOLT12 support
-- [x] BOLT11 support
-- [X] LSP
-- [x] CLN Plugin
 
 ## Contributors
 

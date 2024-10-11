@@ -39,7 +39,7 @@ Check [here](https://github.com/AreaLayer/Lightning-Lending/blob/main/doc/run.md
 
 ### Roadmap
 
-- [ ] [P2P Nostr](https://github.com/nostr-protocol/nips/pull/1331)
+- [x] [P2P Nostr](https://github.com/nostr-protocol/nips/pull/1331)
 
 ## Contributors
 

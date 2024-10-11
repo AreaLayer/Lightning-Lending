@@ -11,8 +11,6 @@ Open/close channel on Lightning Network using Nostr and DLCs
  
  ⚠️**Use small amounts**
 
- ⚠️**Don't use for mainnet**
-
  **Contributions are welcome**
  
 ### How works

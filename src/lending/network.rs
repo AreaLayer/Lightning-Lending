@@ -2,6 +2,7 @@ use bdk::bitcoin::Transaction;
 use bdk::bticoin::BumpFee;
 use bdk::bitcoin::Network;
 use bdk::bitcoin::Network::{Bitcoin, Testnet, Regtest, Signet};
+use bitcoin::Network::Testnet4;
 
 fn main() {
     let tx: Transaction = Transaction::default();
@@ -65,6 +66,13 @@ fn is_regtest(network: Network) -> bool {
 fn is_bitcoin(network: Network) -> bool {
     match network {
         Bitcoin => true,
+        _ => false,
+        }
+        }
+
+fn is_testnet4(network: Network) -> bool {
+    match network {
+        Testnet4 => true,
         _ => false,
         }
         }

@@ -156,3 +156,17 @@ fn sign_event(
 
     hex::encode(signature_compact)
 }
+
+fn oracle(
+    pubkey_hex: &str,
+    created_at: u64,
+    kind: u16,
+    oracle: u16,
+    content: &str,
+    secret_key_hex: &str,
+) -> Result<MyEvent, nostr::Error> {
+    let created_at = SystemTime::now()
+        .duration_since(UNIX_EPOCH)
+        .expect("SystemTime before UNIX EPOCH!")
+        .as_secs();
+}

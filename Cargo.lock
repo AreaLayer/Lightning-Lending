@@ -13,7 +13,7 @@ dependencies = [
  "dlc",
  "env_logger 0.11.5",
  "esplora-client",
- "lightning 0.0.125",
+ "lightning",
  "lightning-liquidity",
  "miniscript 12.2.0",
  "nostr",
@@ -1739,18 +1739,6 @@ dependencies = [
 
 [[package]]
 name = "lightning"
-version = "0.0.124"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5fa15a82fa2862935552fe647d1bf15745a6d759c0dca5a4b1e7b7e80cf24d58"
-dependencies = [
- "bech32 0.9.1",
- "bitcoin 0.32.2",
- "lightning-invoice",
- "lightning-types",
-]
-
-[[package]]
-name = "lightning"
 version = "0.0.125"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "767f388e50251da71f95a3737d6db32c9729f9de6427a54fa92bb994d04d793f"
@@ -1775,13 +1763,13 @@ dependencies = [
 
 [[package]]
 name = "lightning-liquidity"
-version = "0.1.0-alpha.5"
+version = "0.1.0-alpha.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "49afbc99fa165be9e106516e475d518620015ce5f264ae6e349948b29da1f868"
+checksum = "175cff5d30b8d3f94ae9772b59f9ca576b1927a6ab60dd773e8c4e0593cd4e95"
 dependencies = [
  "bitcoin 0.32.2",
  "chrono",
- "lightning 0.0.124",
+ "lightning",
  "lightning-invoice",
  "lightning-types",
  "serde",

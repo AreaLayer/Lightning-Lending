@@ -49,12 +49,6 @@ impl Network {
     }
 }
 
-fn is_testnet(network: Network) -> bool {
-    match network {
-        Testnet => true,
-        _ => false,
-    }
-}
 
 fn is_regtest(network: Network) -> bool {
     match network {

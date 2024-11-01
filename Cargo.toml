@@ -22,7 +22,7 @@ miniscript = "=12.2.0"
 lightning-liquidity = "=0.1.0-alpha.6"
 cln-plugin = "0.2.0"
 clap = "=4.5.20"
-anyhow = "1.0.91"
+anyhow = "1.0.92"
 esplora-client = "0.10.0"
 
 [[bin]]

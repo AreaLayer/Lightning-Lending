@@ -121,3 +121,20 @@ pub (crate) fn Eventkind_90(event: Event) -> Event {
         _ => Event::Nip(Nip::new(PubKey::from(""))),
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use nostr::Event;
+    use nostr::Relay;
+
+    pub (crate) fn test_nip88() {
+        let nip = Nip::new(PubKey::from_str("pubkey").unwrap());
+        let event = Event::from(nip);
+        let relay = Relay::new("wss://relay.damus.io");
+        let Eventkid_88 = nip.sign(&event);
+        let Eventkind_89 = nip.sign(&event);
+        let Eventkind_90 = nip.sign(&event);
+        relay.publish(event);
+    }
+}

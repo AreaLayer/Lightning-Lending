@@ -131,9 +131,9 @@ dependencies = [
 
 [[package]]
 name = "anyhow"
-version = "1.0.92"
+version = "1.0.93"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "74f37166d7d48a0284b99dd824694c26119c700b53bf0d1540cdb147dbdaaf13"
+checksum = "4c95c10ba0b00a02636238b814946408b1322d5ac4760326e6fb8ec956d85775"
 
 [[package]]
 name = "arbitrary"
@@ -262,17 +262,6 @@ name = "async-task"
 version = "4.7.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8b75356056920673b02621b35afd0f7dda9306d03c79a30f5c56c44cf256e3de"
-
-[[package]]
-name = "async-trait"
-version = "0.1.83"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "721cae7de5c34fbb2acd27e21e6d2cf7b886dce0c27388d46c4e6c47ea4318dd"
-dependencies = [
- "proc-macro2",
- "quote",
- "syn",
-]
 
 [[package]]
 name = "atomic-waker"
@@ -1904,12 +1893,11 @@ checksum = "43a88da9dd148bbcdce323dd6ac47d369b4769d4a3b78c6c52389b9269f77932"
 
 [[package]]
 name = "nostr"
-version = "0.36.0"
+version = "0.35.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "14ad56c1d9a59f4edc46b17bc64a217b38b99baefddc0080f85ad98a0855336d"
+checksum = "56db234b2e07901e372f34e9463f91590579cd8e6dbd34ed2ccc7e461e4ba639"
 dependencies = [
  "aes",
- "async-trait",
  "base64 0.22.1",
  "bech32 0.11.0",
  "bip39",

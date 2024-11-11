@@ -61,3 +61,19 @@ impl esplora_client::TX_INPUT {
                     self.blockheight.to_string()
                     }
                 }
+
+
+                impl esplora_client::TX_OUTPUT {
+                    pub fn get_tx_hash(&self) -> TX_HASH {
+                        self.txid.to_string()
+                        }
+                        pub fn get_tx_index(&self) -> TX_INDEX {
+                            self.txid.to_string()
+                            }
+                            pub fn get_block_hash(&self) -> BLOCK_HASH {
+                                self.blockhash.to_string()
+                                }
+                                pub fn get_block_height(&self) -> BLOCK_HEIGHT {
+                                    self.blockheight.to_string()
+                                    }
+                                }

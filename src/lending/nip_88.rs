@@ -122,6 +122,8 @@ pub (crate) fn Eventkind_90(event: Event) -> Event {
     }
 }
 
+pub struct Eventkid_88;
+
 #[cfg(test)]
 mod tests {
     use super::*;

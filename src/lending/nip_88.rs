@@ -129,6 +129,7 @@ mod tests {
     use super::*;
     use nostr::Event;
     use nostr::Relay;
+    use nostr::PubKey;
 
     pub (crate) fn test_nip88() {
         let nip = Nip::new(PubKey::from_str("pubkey").unwrap());

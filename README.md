@@ -7,7 +7,7 @@
 
 Open/close channel on Lightning Network using Nostr and DLCs
 
- ⚠️ **Beta software and WIP**
+ ⚠️ **Beta software**
  
  ⚠️**Use small amounts**
 

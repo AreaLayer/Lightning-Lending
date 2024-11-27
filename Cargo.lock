@@ -15,7 +15,7 @@ dependencies = [
  "esplora-client",
  "lightning",
  "lightning-liquidity",
- "miniscript 12.2.0",
+ "miniscript 12.3.0",
  "nostr",
  "wasm-pack",
 ]
@@ -959,7 +959,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "abff3067edae81f323b5e9a7516c1bc72bbc233025c273926e1e1a51cafc7ed6"
 dependencies = [
  "bitcoin 0.32.2",
- "miniscript 12.2.0",
+ "miniscript 12.3.0",
  "secp256k1-sys 0.10.0",
  "secp256k1-zkp",
 ]
@@ -1832,9 +1832,9 @@ dependencies = [
 
 [[package]]
 name = "miniscript"
-version = "12.2.0"
+version = "12.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "add2d4aee30e4291ce5cffa3a322e441ff4d4bc57b38c8d9bf0e94faa50ab626"
+checksum = "5bd3c9608217b0d6fa9c9c8ddd875b85ab72bd4311cfc8db35e1b5a08fc11f4d"
 dependencies = [
  "bech32 0.11.0",
  "bitcoin 0.32.2",

@@ -28,7 +28,7 @@ struct Event {
 
 fn main() {
     let matches = App::new("Event Generator CLI")
-        .version("1.0.17-beta")
+        .version("1.0.18-beta")
         .author("Area Layer")
         .about("Open/close channels and make payments using Nostr, DLCs and Lightning Network via CLI")
         .arg(

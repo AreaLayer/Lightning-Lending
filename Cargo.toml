@@ -21,7 +21,7 @@ wasm-pack = "=0.13.1"
 miniscript = "=12.3.0"
 lightning-liquidity = "=0.1.0-alpha.6"
 cln-plugin = "0.2.0"
-clap = "=4.5.21"
+clap = "=4.5.23"
 anyhow = "1.0.93"
 esplora-client = "0.10.0"
 

@@ -24,6 +24,7 @@ cln-plugin = "0.3.0"
 clap = "=4.5.23"
 anyhow = "1.0.94"
 esplora-client = "0.11.0"
+idna = "1.0.0"
 
 [[bin]]
 name = "lightning_lendingd"

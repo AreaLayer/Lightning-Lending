@@ -622,9 +622,9 @@ checksum = "f46ad14479a25103f283c0f10005961cf086d8dc42205bb44c46ac563475dca6"
 
 [[package]]
 name = "cln-plugin"
-version = "0.2.0"
+version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "36894239b9df672853500b3abdd133dd6969efd0307806e6dec533ead6de367e"
+checksum = "55eefc811f7d5280586dec7342824a84ab81f1d7e0cdb4cd579c1470e3e236cc"
 dependencies = [
  "anyhow",
  "bytes",

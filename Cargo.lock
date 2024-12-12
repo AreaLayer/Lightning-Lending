@@ -814,9 +814,9 @@ dependencies = [
 
 [[package]]
 name = "dlc"
-version = "0.7.0"
+version = "0.7.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "abff3067edae81f323b5e9a7516c1bc72bbc233025c273926e1e1a51cafc7ed6"
+checksum = "fbcae4708c4b016eb24ea99e112daa312b70f4fc97fef922a4174f10a1486830"
 dependencies = [
  "bitcoin 0.32.2",
  "miniscript 12.3.0",

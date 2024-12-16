@@ -33,6 +33,11 @@ Open/close channel on Lightning Network using Nostr and DLCs
 
 Check [here](https://github.com/AreaLayer/Lightning-Lending/blob/main/doc/run.md)
 
+## Roadmap
+
+- [ ] Add more tests
+- [ ] NIP-88 Crates
+
 ## Contributors
 
 <a align="center" href="https://github.com/AreaLayer/Lightning-Lending/graphs/contributors">

@@ -23,7 +23,7 @@ Open/close channel on Lightning Network using Nostr and DLCs
 
 4. After pay in sats
 
-5. The channel is open or closed 
+5. The channel is opened or closed 
 
 ### NIP used
 

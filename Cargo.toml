@@ -14,7 +14,7 @@ edition = "2021"
 [dependencies]
 dlc = "=0.7.1"
 lightning = "=0.0.125"
-nostr = "=0.37.0"
+nostr = "=0.38.0"
 bdk = "= 0.30.0"
 env_logger = "=0.11.6"
 wasm-pack = "=0.13.1"

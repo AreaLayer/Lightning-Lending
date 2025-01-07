@@ -14,7 +14,7 @@ dependencies = [
  "env_logger 0.11.6",
  "esplora-client",
  "idna 1.0.3",
- "lightning",
+ "lightning 0.0.125",
  "lightning-liquidity",
  "miniscript 12.3.0",
  "nostr",
@@ -132,9 +132,9 @@ dependencies = [
 
 [[package]]
 name = "anyhow"
-version = "1.0.94"
+version = "1.0.95"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c1fd03a028ef38ba2276dce7e33fcd6369c158a1bca17946c4b1b701891c1ff7"
+checksum = "34ac096ce696dc2fcabef30516bb13c0a68a11d30131d3df6f04711467681b04"
 
 [[package]]
 name = "arbitrary"
@@ -816,6 +816,12 @@ dependencies = [
 ]
 
 [[package]]
+name = "dnssec-prover"
+version = "0.6.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "96487aad690d45a83f2b9876828ba856c5430bbb143cb5730d8a5d04a4805179"
+
+[[package]]
 name = "either"
 version = "1.13.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1150,6 +1156,12 @@ dependencies = [
 
 [[package]]
 name = "hashbrown"
+version = "0.13.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "43a3c133739dddd0d2990f9a4bdf8eb4b21ef50e4851ca85ab661199821d510e"
+
+[[package]]
+name = "hashbrown"
 version = "0.14.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e5274423e17b7c9fc20b6e7e208532f9b19825d82dfd615708b70edd83df41f1"
@@ -1477,7 +1489,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "168fb715dda47215e360912c096649d23d58bf392ac62f73919e831745e40f26"
 dependencies = [
  "equivalent",
- "hashbrown",
+ "hashbrown 0.14.5",
 ]
 
 [[package]]
@@ -1560,6 +1572,12 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "97b3888a4aecf77e811145cadf6eef5901f4782c53886191b2f693f24761847c"
 
 [[package]]
+name = "libm"
+version = "0.2.11"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8355be11b20d696c8f18f6cc018c4e372165b1fa8126cef092399c9951984ffa"
+
+[[package]]
 name = "libredox"
 version = "0.1.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1578,8 +1596,24 @@ checksum = "767f388e50251da71f95a3737d6db32c9729f9de6427a54fa92bb994d04d793f"
 dependencies = [
  "bech32 0.9.1",
  "bitcoin 0.32.2",
- "lightning-invoice",
- "lightning-types",
+ "lightning-invoice 0.32.0",
+ "lightning-types 0.1.0",
+]
+
+[[package]]
+name = "lightning"
+version = "0.1.0-beta1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "093a053da006d0bb1cd21b720e1a27ef52afcbd3abe0d1bb5fb4a6fdb43db545"
+dependencies = [
+ "bech32 0.11.0",
+ "bitcoin 0.32.2",
+ "dnssec-prover",
+ "hashbrown 0.13.2",
+ "libm",
+ "lightning-invoice 0.33.0-beta1",
+ "lightning-types 0.2.0-beta1",
+ "possiblyrandom",
 ]
 
 [[package]]
@@ -1590,21 +1624,32 @@ checksum = "90ab9f6ea77e20e3129235e62a2e6bd64ed932363df104e864ee65ccffb54a8f"
 dependencies = [
  "bech32 0.9.1",
  "bitcoin 0.32.2",
- "lightning-types",
+ "lightning-types 0.1.0",
+]
+
+[[package]]
+name = "lightning-invoice"
+version = "0.33.0-beta1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "396b4ea89ef8dc805fafffb5d9890cbb7e8534d57ba7d23f881819efe14f31c7"
+dependencies = [
+ "bech32 0.11.0",
+ "bitcoin 0.32.2",
+ "lightning-types 0.2.0-beta1",
  "serde",
 ]
 
 [[package]]
 name = "lightning-liquidity"
-version = "0.1.0-alpha.6"
+version = "0.1.0-beta1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "175cff5d30b8d3f94ae9772b59f9ca576b1927a6ab60dd773e8c4e0593cd4e95"
+checksum = "b39784f3e7ebe3e2da8f1b8bd7be88c5b999a8cccc9026250b9444a4afc8e081"
 dependencies = [
  "bitcoin 0.32.2",
  "chrono",
- "lightning",
- "lightning-invoice",
- "lightning-types",
+ "lightning 0.1.0-beta1",
+ "lightning-invoice 0.33.0-beta1",
+ "lightning-types 0.2.0-beta1",
  "serde",
  "serde_json",
 ]
@@ -1618,6 +1663,15 @@ dependencies = [
  "bech32 0.9.1",
  "bitcoin 0.32.2",
  "hex-conservative",
+]
+
+[[package]]
+name = "lightning-types"
+version = "0.2.0-beta1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8e8b4b7dd7b76c6506dcaf336635b7c629fb3be5d0512f0d394da08ed4fe3922"
+dependencies = [
+ "bitcoin 0.32.2",
 ]
 
 [[package]]
@@ -2009,6 +2063,15 @@ dependencies = [
  "cpufeatures",
  "opaque-debug",
  "universal-hash",
+]
+
+[[package]]
+name = "possiblyrandom"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1b122a615d72104fb3d8b26523fdf9232cd8ee06949fb37e4ce3ff964d15dffd"
+dependencies = [
+ "getrandom",
 ]
 
 [[package]]

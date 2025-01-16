@@ -14,7 +14,7 @@ dependencies = [
  "env_logger 0.11.6",
  "esplora-client",
  "idna 1.0.3",
- "lightning 0.0.125",
+ "lightning",
  "lightning-liquidity",
  "miniscript 12.3.0",
  "nostr",
@@ -1590,52 +1590,29 @@ dependencies = [
 
 [[package]]
 name = "lightning"
-version = "0.0.125"
+version = "0.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "767f388e50251da71f95a3737d6db32c9729f9de6427a54fa92bb994d04d793f"
-dependencies = [
- "bech32 0.9.1",
- "bitcoin 0.32.2",
- "lightning-invoice 0.32.0",
- "lightning-types 0.1.0",
-]
-
-[[package]]
-name = "lightning"
-version = "0.1.0-beta1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "093a053da006d0bb1cd21b720e1a27ef52afcbd3abe0d1bb5fb4a6fdb43db545"
+checksum = "5d5e89b43e3175c73f868bea94a3b67164c6a3a66d636f4edce4592a80484f05"
 dependencies = [
  "bech32 0.11.0",
  "bitcoin 0.32.2",
  "dnssec-prover",
  "hashbrown 0.13.2",
  "libm",
- "lightning-invoice 0.33.0-beta1",
- "lightning-types 0.2.0-beta1",
+ "lightning-invoice",
+ "lightning-types",
  "possiblyrandom",
 ]
 
 [[package]]
 name = "lightning-invoice"
-version = "0.32.0"
+version = "0.33.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "90ab9f6ea77e20e3129235e62a2e6bd64ed932363df104e864ee65ccffb54a8f"
-dependencies = [
- "bech32 0.9.1",
- "bitcoin 0.32.2",
- "lightning-types 0.1.0",
-]
-
-[[package]]
-name = "lightning-invoice"
-version = "0.33.0-beta1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "396b4ea89ef8dc805fafffb5d9890cbb7e8534d57ba7d23f881819efe14f31c7"
+checksum = "50d6beb3b2957ed6120e7380110aed21001cb7122c30528149fb7d517d9bcbda"
 dependencies = [
  "bech32 0.11.0",
  "bitcoin 0.32.2",
- "lightning-types 0.2.0-beta1",
+ "lightning-types",
  "serde",
 ]
 
@@ -1647,29 +1624,18 @@ checksum = "b39784f3e7ebe3e2da8f1b8bd7be88c5b999a8cccc9026250b9444a4afc8e081"
 dependencies = [
  "bitcoin 0.32.2",
  "chrono",
- "lightning 0.1.0-beta1",
- "lightning-invoice 0.33.0-beta1",
- "lightning-types 0.2.0-beta1",
+ "lightning",
+ "lightning-invoice",
+ "lightning-types",
  "serde",
  "serde_json",
 ]
 
 [[package]]
 name = "lightning-types"
-version = "0.1.0"
+version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1083b8d9137000edf3bfcb1ff011c0d25e0cdd2feb98cc21d6765e64a494148f"
-dependencies = [
- "bech32 0.9.1",
- "bitcoin 0.32.2",
- "hex-conservative",
-]
-
-[[package]]
-name = "lightning-types"
-version = "0.2.0-beta1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8e8b4b7dd7b76c6506dcaf336635b7c629fb3be5d0512f0d394da08ed4fe3922"
+checksum = "f2cd84d4e71472035903e43caded8ecc123066ce466329ccd5ae537a8d5488c7"
 dependencies = [
  "bitcoin 0.32.2",
 ]

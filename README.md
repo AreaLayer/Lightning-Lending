@@ -35,7 +35,7 @@ Check [here](https://github.com/AreaLayer/Lightning-Lending/blob/main/doc/run.md
 
 ## Roadmap
 
-- [ ] Add more tests
+- [x] Add more tests (WIP)
 - [ ] NIP-88 Crates
 
 ## Contributors

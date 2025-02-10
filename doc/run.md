@@ -10,7 +10,7 @@
 - Rust Nostr
 - Nostr profile (Npub)
 - Testnet
-- Mainnet (Soon)
+- Mainnet 
 
 Before running the CLI application, ensure that you have Cargo installed on your system.
 

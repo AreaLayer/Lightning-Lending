@@ -37,6 +37,7 @@ Check [here](https://github.com/AreaLayer/Lightning-Lending/blob/main/doc/run.md
 
 - [x] Add more tests (WIP)
 - [ ] NIP-88 Crates
+- [ ] Out of beta
 
 ## Contributors
 

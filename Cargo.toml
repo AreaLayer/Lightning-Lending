@@ -27,7 +27,7 @@ esplora-client = "0.11.0"
 idna = "1.0.0"
 openssl = "0.10.71"
 ring = "0.17.14"
-zip = "2.3.0"
+zip = "2.5.0"
 
 [[bin]]
 name = "lightning_lendingd"

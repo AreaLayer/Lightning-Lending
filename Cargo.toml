@@ -25,9 +25,9 @@ clap = "=4.5.35"
 anyhow = "1.0.97"
 esplora-client = "0.11.0"
 idna = "1.0.0"
-openssl = "0.10.71"
+openssl = "0.10.72"
 ring = "0.17.14"
-zip = "2.6.0"
+zip = "2.6.1"
 
 [[bin]]
 name = "lightning_lendingd"

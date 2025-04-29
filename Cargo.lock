@@ -16,7 +16,7 @@ dependencies = [
  "idna 1.0.3",
  "lightning",
  "lightning-liquidity",
- "miniscript 12.3.1",
+ "miniscript 12.3.2",
  "nostr",
  "openssl",
  "ring",
@@ -801,7 +801,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "fbcae4708c4b016eb24ea99e112daa312b70f4fc97fef922a4174f10a1486830"
 dependencies = [
  "bitcoin 0.32.2",
- "miniscript 12.3.1",
+ "miniscript 12.3.2",
  "secp256k1-sys 0.10.0",
  "secp256k1-zkp",
 ]
@@ -1749,9 +1749,9 @@ dependencies = [
 
 [[package]]
 name = "miniscript"
-version = "12.3.1"
+version = "12.3.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "82911d2fb527bb9aacd2446d2f517aff3f8e3846ace1b3c24258b61ea3cce2bc"
+checksum = "0760e92feaf4ee26bd2e616f557de64712bf1e75f3b1b218dfb475c0a84c7943"
 dependencies = [
  "bech32 0.11.0",
  "bitcoin 0.32.2",

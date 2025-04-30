@@ -6,6 +6,7 @@ use Bitcoin::TXOutput;
 use Bitcoin::Script;
 use bitcoin::Set_lock_time;
 use lightning::TX;
+use ark_core::VTXOOutpoint;
 
 impl TX {
     pub fn new() -> TX {
@@ -13,6 +14,7 @@ impl TX {
             inputs: Vec::new(),
             outputs: Vec::new(),
             lock_time: 0,
+            VTXOOutpoint: Vec::new(),
         }
     }
 }
@@ -48,5 +50,12 @@ impl lightning::TX for TX {
     }
     fn add_output(&mut self, output: TXOutput) {
         self.outputs.push(output);
+    }
+}
+
+impl ark_core::VTXOOutpoint for TX {
+    fn set_lock_time(&mut self, lock_time: u32) {
+        self.lock.p2tr = lock_time;
+        time = lock_time;
     }
 }

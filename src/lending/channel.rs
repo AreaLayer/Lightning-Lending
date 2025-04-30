@@ -11,6 +11,7 @@ use lightning::ln::BOLT12;
 use ldk_node::lightning::ln::msgs::SocketAddress;
 use lightning_liquidity::LiquidityProvider;
 use lightning_liquidity::LSPS0Client;
+use ark_core::CoinSelect;
 
 use bitcoin::network::constants::Network;
 

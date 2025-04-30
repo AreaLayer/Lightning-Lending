@@ -15,28 +15,35 @@ use ark_core::CoinSelect;
 
 use bitcoin::network::constants::Network;
 
-fn main(){
-let network = Network::Testnet; // You can switch between testnet and mainnet here
-let config = UserConfig::default();
+fn main() {
+    let network = Network::Testnet; // You can switch between testnet and mainnet here
+    let config = UserConfig::default();
+    let coin_select = CoinSelect::new();
 
-let channel_manager = ChannelManager::new(
-    Arc::new(chain_source),
-    Arc::new(keys_manager.clone()), // Clone because it's used in multiple places
-    Arc::new(fee_estimator.clone()),
-    Arc::new(tx_broadcaster.clone()),
-    Arc::new(LSPS0Client.clone()),
-    Arc::new(logger.clone()),
-    config,
-    network,
-    Arc::new(ChainMonitor::new(Arc::new(chain_source), Arc::new(tx_broadcaster), Arc::new(logger), Arc::new(keys_manager.clone()), Arc::new(fee_estimator.clone()))),
-);
+    let channel_manager = ChannelManager::new(
+        Arc::new(chain_source),
+        Arc::new(keys_manager.clone()), // Clone because it's used in multiple places
+        Arc::new(fee_estimator.clone()),
+        Arc::new(tx_broadcaster.clone()),
+        Arc::new(LSPS0Client.clone()),
+        Arc::new(logger.clone()),
+        Arc::new(coin_select),
+        config,
+        network,
+        Arc::new(ChainMonitor::new(Arc::new(chain_source), Arc::new(tx_broadcaster), Arc::new(logger), Arc::new(keys_manager.clone()), Arc::new(fee_estimator.clone()))),
+    );
 
-let peer_handler = PeerHandler::new(
-    channel_manager.clone(),
-    Arc::new(keys_manager.clone()),
-    Arc::new(logger.clone()),
-    message_handler,
-);
+    let peer_handler = PeerHandler::new(
+        channel_manager.clone(),
+        Arc::new(keys_manager.clone()),
+        Arc::new(logger.clone()),
+        Arc::new(tx_broadcaster.clone()),
+        Arc::new(fee_estimator.clone()),
+        Arc::new(coin_select),
+        config,
+        network,
+        message_handler,
+    );
 
-peer_handler.connect_peer(peer_address, None).unwrap()
+    peer_handler.connect_peer(peer_address, None).unwrap()
 }

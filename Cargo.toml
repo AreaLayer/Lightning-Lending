@@ -28,7 +28,7 @@ idna = "1.0.0"
 openssl = "0.10.72"
 ring = "0.17.14"
 zip = "2.6.1"
-tokio = "1.43.1"
+tokio = "1.45.0"
 ark-core = "0.1.0"
 
 [[bin]]

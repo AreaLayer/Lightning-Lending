@@ -1,5 +1,5 @@
 # Base image for building
-FROM rust:1.86.0 as builder
+FROM rust:1.87.0 as builder
 
 # Install dependencies and tools
 RUN apt-get update && apt-get install -y \

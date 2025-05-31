@@ -32,4 +32,4 @@ ark-core = "0.1.0"
 
 [[bin]]
 name = "lightning_lendingd"
-path = "src/bin/lightning_lendingd.rs"
+path = "bin/lightning_lendingd.rs"

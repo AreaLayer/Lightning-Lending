@@ -1,6 +1,6 @@
 [package]
 name = "Lightning_Lending"
-version = "1.0.26-beta"
+version = "1.0.25-beta"
 license = "MIT"
 authors = ["22388"]
 description = "A lightning lending library & cli by Nostr/LDK/DLCs"
@@ -18,7 +18,7 @@ nostr = "=0.42.2"
 bdk = "= 0.30.2"
 env_logger = "=0.11.8"
 wasm-pack = "=0.13.1"
-miniscript = "=12.3.3"
+miniscript = "=12.3.2"
 cln-plugin = "0.4.0"
 clap = "=4.5.40"
 anyhow = "1.0.98"
@@ -27,7 +27,7 @@ idna = "1.0.0"
 openssl = "0.10.72"
 ring = "0.17.14"
 zip = "3.0.0"
-tokio = "1.46.0"
+tokio = "1.45.1"
 ark-core = "0.1.0"
 
 [[bin]]

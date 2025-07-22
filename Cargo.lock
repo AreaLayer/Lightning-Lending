@@ -16,7 +16,7 @@ dependencies = [
  "esplora-client",
  "idna 1.0.3",
  "lightning",
- "miniscript 12.3.4",
+ "miniscript 12.3.5",
  "nostr",
  "openssl",
  "ring",
@@ -850,7 +850,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "fbcae4708c4b016eb24ea99e112daa312b70f4fc97fef922a4174f10a1486830"
 dependencies = [
  "bitcoin 0.32.5",
- "miniscript 12.3.4",
+ "miniscript 12.3.5",
  "secp256k1-sys 0.10.0",
  "secp256k1-zkp",
 ]
@@ -1803,9 +1803,9 @@ dependencies = [
 
 [[package]]
 name = "miniscript"
-version = "12.3.4"
+version = "12.3.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a1eeb3bbebc87062b99fbb8c9067d30dab85469f4cf12248a2667777cc86b282"
+checksum = "487906208f38448e186e3deb02f2b8ef046a9078b0de00bdb28bf4fb9b76951c"
 dependencies = [
  "bech32 0.11.0",
  "bitcoin 0.32.5",

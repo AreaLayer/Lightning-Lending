@@ -7,9 +7,7 @@ use nostr::{relay, npub, nsec};
 
 fn relay() -> Vec<String> {
     vec![
-        "wss://relay.damus.io".to_string(),
-        "wss://eden.nostr.land".to_string(),
-        "wss://relay.snort.social".to_string(),
+        "wss://relay.nostr.net".to_string(),
     ]
 }
 

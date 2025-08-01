@@ -942,9 +942,9 @@ dependencies = [
 
 [[package]]
 name = "esplora-client"
-version = "0.12.0"
+version = "0.12.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "209cf00e44b979682b22be38672317d8bb48dd5ea2726e61b762d6b14b5842f2"
+checksum = "a0af349d96a5d9ad77ba59f1437aa6f348b03c5865d4f7d6e7a662d60aedce39"
 dependencies = [
  "bitcoin 0.32.5",
  "hex-conservative",

@@ -8,26 +8,26 @@ repository = "https://github.com/AreaLayer/Lightning_Lending"
 documentation = "https://docs.rs/lightning_lending"
 keywords = ["lightning", "lending", "lnd", "bitcoin", "dlc", "nostr"]
 categories = ["cryptography", "Bitcoin", "Lightning"]
-edition = "2024"
+edition = "2021"
 resolver = "2"
 
 [dependencies]
 dlc = "=0.7.1"
 lightning = "=0.1.5"
-nostr = "=0.43.0"
+nostr = "=0.42.2"
 bdk = "= 0.30.2"
 env_logger = "=0.11.8"
 wasm-pack = "=0.13.1"
 miniscript = "=12.3.5"
 cln-plugin = "0.4.0"
-clap = "=4.5.42"
+clap = "=4.5.41"
 anyhow = "1.0.98"
-esplora-client = "0.12.1"
+esplora-client = "0.12.0"
 idna = "1.0.0"
 openssl = "0.10.72"
 ring = "0.17.14"
 zip = "3.0.0"
-tokio = "1.47.0"
+tokio = "1.46.1"
 ark-core = "0.1.0"
 
 [[bin]]

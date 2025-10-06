@@ -37,7 +37,6 @@ Check [here](https://github.com/AreaLayer/Lightning-Lending/blob/main/doc/run.md
 
 - [ ] NIP-88 Crates
 - [ ] Out of beta
-- [x] Ark swaps
 
 ## Contributors
 

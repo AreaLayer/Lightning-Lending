@@ -13,7 +13,7 @@ resolver = "2"
 
 [dependencies]
 dlc = "=0.7.1"
-lightning = "=0.1.5"
+lightning = "=0.1.6"
 nostr = "=0.43.1"
 bdk = "= 0.30.2"
 env_logger = "=0.11.8"

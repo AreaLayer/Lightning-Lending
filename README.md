@@ -1,45 +1,71 @@
-# Lightning Lending :zap: 🟣 🪙
+# ⚡ Lightning Lending (Archived)
 
-[![Bitcoin-only](https://img.shields.io/badge/bitcoin-only-FF9900?logo=bitcoin)](https://twentyone.world)
-[![LN](https://img.shields.io/badge/lightning-792EE5?logo=lightning)](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Lightning_Network.svg/2048px-Lightning_Network.svg.png)
-[![Nostr](https://img.shields.io/badge/nostr-only-FF9900?)](https://user-images.githubusercontent.com/99301796/223592277-34058d0e-af30-411d-8dfe-87c42dacdcf2.png)
-[![Rust](https://github.com/AreaLayer/Lightning-Lending/actions/workflows/rust.yml/badge.svg)](https://github.com/AreaLayer/Lightning-Lending/actions/workflows/rust.yml)
+> **Status:** 🗄️ *This project is no longer actively maintained.*
+> The repository is kept for reference and educational purposes only.
+> Use at your own risk.
 
-Open/close channel on Lightning Network using Nostr and DLCs
+---
 
- ⚠️ **Beta software**
- 
- ⚠️**Use small amounts**
+## 🧩 Overview
 
- **Contributions are welcome**
- 
-### How works
+**Lightning Lending** was an experimental project exploring **lending mechanisms directly on the Bitcoin Lightning Network** using **Nostr** and **Discreet Log Contracts (DLCs)**.
+It enabled opening and closing Lightning channels through programmable contracts and relays, paving the way for non-custodial lending protocols built on Lightning.
 
-1. Lending channels direct on Lightning Network
+---
 
-2. Channel A opens with B with DLCs and Relays
+## ⚙️ How It Worked
 
-3. Define HTLC, CLTV time with DLCs
+1. A lending channel was opened between two peers (A and B) using **DLCs** and **Nostr relays**.
+2. The protocol defined **HTLC** and **CLTV** parameters through DLC agreements.
+3. Once the counterparties agreed and paid in sats, the channel was created or settled automatically.
+4. Closing followed the same trustless mechanism, ensuring on-chain enforcement when needed.
 
-4. After pay in sats
+---
 
-5. The channel is opened or closed 
+## 🔗 Protocols & Standards
 
-### NIP used
+The project was designed to integrate with emerging **Nostr Improvement Proposals (NIPs)** and **Bitcoin Lightning specifications**, including experimental work with:
 
-[Check here](https://github.com/AreaLayer/NIP-300)
+* **NIP-88** crates
+* **DLCs (Discreet Log Contracts)** for on-chain enforcement
+* **Lightning HTLC/CLTV logic**
 
-### Run LL
+*(Originally listed references under “Check here” are no longer active.)*
 
-Check [here](https://github.com/AreaLayer/Lightning-Lending/blob/main/doc/run.md)
+---
 
-## Roadmap
+## 🧪 Development Notes
 
-- [ ] NIP-88 Crates
-- [x] Out of beta
+**Lightning Lending** was a proof-of-concept and **beta software**.
+It was never intended for production use or large funds.
+Testing was ongoing with the following roadmap:
 
-## Contributors
+* ✅ Basic channel open/close logic
+* 🧩 DLC integration (Work in Progress)
+* 🧪 More testing and NIP compatibility
+* 🔄 Transition from beta
+* 🌀 Future: Ark swaps integration
 
-<a align="center" href="https://github.com/AreaLayer/Lightning-Lending/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=FrostDevKit/javascript-frost" />
-</a>
+---
+
+## 🧠 Concepts Explored
+
+* **Bitcoin Lightning Network**
+* **Nostr protocol**
+* **Non-custodial lending**
+* **DLC-based financial contracts**
+
+---
+
+## 👥 Contributors
+
+See the original repository contributors page:
+👉 [github.com/AreaLayer/Lightning-Lending](https://github.com/AreaLayer/Lightning-Lending)
+
+---
+
+## 📜 License
+
+**MIT License** — Free to use, modify, and distribute with attribution.
+
+---
